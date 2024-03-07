@@ -61,12 +61,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Base: -0.15
     - _DistanceView: 1.51
     - _Drop2Strenght: 0
     - _DropletStrenght: 20
     - _Droplet_Tiling: 0.75
     - _Float: 1
     - _Float_1: 0.75
+    - _Force: 2
     - _NormalStrength: 1.74
     - _Normal_Strength: 0.0075
     - _PerturbationTiling: 15
@@ -76,9 +78,9 @@ Material:
     - _ScrollSpeed: -0.0075
     - _Tiling: 1
     - _UpMaskBlend: -0.5
-    - _UpMaskBlendSmoothness: 1
+    - _UpMaskBlendSmoothness: -1
     - _UpMaskFeather: 0.8
-    - _UpMaskFeatherSmoothness: 1
+    - _UpMaskFeatherSmoothness: 0.1
     - _VFXDropsTiling: 1.34
     - _VFXNormalForce: 0.47
     - _WaterSmoothness: 1
