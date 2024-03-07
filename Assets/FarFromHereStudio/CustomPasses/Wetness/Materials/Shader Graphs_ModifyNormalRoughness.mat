@@ -61,17 +61,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Base: -0.61
+    - _Base: -0.53
     - _DistanceView: 1.76
     - _Drop2Strenght: 0
-    - _DropletStrenght: 7.9
+    - _DropletStrenght: 4.5
     - _Droplet_Tiling: 0.75
     - _Float: 1
     - _Float_1: 0.75
-    - _Force: 4.64
+    - _Force: 3.93
     - _NormalStrength: 1.74
     - _Normal_Strength: 0.0075
-    - _PerturbationTiling: 15
+    - _PerturbationTiling: 16
     - _RainGlideStrenght: -0.2
     - _RainGlideTiling: 1.25
     - _Rot: 0.46
@@ -87,7 +87,7 @@ Material:
     - _Zpos: 2
     m_Colors:
     - _DistanceViewDroplet: {r: 0, g: 0.035, b: 0, a: 0}
-    - _PertubationMinMax: {r: 0.88, g: 1, b: 0, a: 0}
-    - _RemapDropRoughness: {r: 0, g: 1, b: 1, a: 0.25}
+    - _PertubationMinMax: {r: 0.88, g: 0.95, b: 0, a: 0}
+    - _RemapDropRoughness: {r: 0, g: 1, b: 1, a: 0.4}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
