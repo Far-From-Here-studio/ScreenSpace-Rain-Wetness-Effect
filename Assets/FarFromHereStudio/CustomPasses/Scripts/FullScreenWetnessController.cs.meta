@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4e6b44773f4a48d4c876be388637439d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - FullScreenWetness: {fileID: 2100000, guid: 82814c390a6fc424da2eab09aca3daa4, type: 2}
+  - RainOnCamera: {fileID: 2100000, guid: 1f37c0f63d599114c8408e51b4406163, type: 2}
+  - DebugVertexColorPrefab: {fileID: 610293437121226533, guid: dcb542b4f90cd904384b3d59de05dfa6, type: 3}
+  - DebugVertexColorPass: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
