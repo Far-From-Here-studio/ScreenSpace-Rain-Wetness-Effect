@@ -70,7 +70,7 @@ Material:
     - _NormalStrength: 1.74
     - _Normal_Strength: 0.0075
     - _PerturbationTiling: 15
-    - _RainGlideStrenght: -0.15
+    - _RainGlideStrenght: -0.2
     - _RainGlideTiling: 1.25
     - _Rot: 0.46
     - _ScrollSpeed: -0.0075
