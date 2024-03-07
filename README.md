@@ -3,7 +3,9 @@
 **Unity Rain Effect for 2023.2+ using ShaderGraph, VFXGraph, CustomPass &amp; Custom Render Textures**
 Demo project is setup using **DX12** and **DXR**
 
-![PromotionalScreenShot](https://static.wixstatic.com/media/40e3ee_e44f9952e8894f8ba6b4e00059bafad3~mv2.png/v1/fill/w_802,h_454,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/1.png)
+![PromotionalScreenShot](https://static.wixstatic.com/media/40e3ee_c7794ec59296402bae56c951d422d258~mv2.png/v1/fill/w_712,h_402,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Capture%20d'%C3%A9cran%202024-03-07%20163209.png)
+
+![PromotionalScreenShot](https://static.wixstatic.com/media/40e3ee_53f8959f3a5b45c4801b5741f1b833f9~mv2.png/v1/fill/w_712,h_402,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Capture%20d'%C3%A9cran%202024-03-07%20163242.png)
 
 # Description:
 
