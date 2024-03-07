@@ -41,7 +41,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Droplets_Intensity: 0.3
+    - _Droplets_Intensity: 0.27
     - _Droplets_Size: 6.6
     - _Fading: 0.025
     - _Gravity_Force: 1.413

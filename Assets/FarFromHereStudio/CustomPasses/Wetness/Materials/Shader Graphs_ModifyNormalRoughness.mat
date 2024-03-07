@@ -62,9 +62,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _Base: -0.61
-    - _DistanceView: 1.51
+    - _DistanceView: 1.76
     - _Drop2Strenght: 0
-    - _DropletStrenght: 20
+    - _DropletStrenght: 7.9
     - _Droplet_Tiling: 0.75
     - _Float: 1
     - _Float_1: 0.75
