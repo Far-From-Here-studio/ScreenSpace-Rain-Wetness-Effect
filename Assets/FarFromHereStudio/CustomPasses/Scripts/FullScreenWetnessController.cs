@@ -4,11 +4,13 @@ using UnityEngine;
 public class FullScreenWetnessController : MonoBehaviour
 {
     [Header("Materials")]
+    [Space]
     public Material FullScreenWetness;
     public Material RainOnCamera;
-
+    [Space]
 
     [Header("Wetness Controller")]
+    [Space]
     [Range(0f, 1f)]
     public float Wetness;
     [Range(0f, 20f)]
@@ -17,9 +19,10 @@ public class FullScreenWetnessController : MonoBehaviour
     public float DetailsDistance;
     [Range(0f, 1f)]
     public float ScreenEffectWetness;
-
+    [Space]
 
     [Header("RainDrop Custom RenderTexture Materials")]
+    [Space]
     public Material RainDropCustomRenderTexture;
     [Header("RainDrop properties")]
     [Range(0,0.1f)]
@@ -28,8 +31,10 @@ public class FullScreenWetnessController : MonoBehaviour
     public float DropSize = 0.021f;
     [Range(0.9f, 0.95f)]
     public float FadeValue = 0.9036f;
+    [Space]
 
     [Header("RainGlide Custom RenderTexture Materials")]
+    [Space]
     public Material RainGlideCustomRenderTexture;
     [Range (0f, 5f)]
     public float DropletsIntensity = 0.8f;
@@ -37,17 +42,25 @@ public class FullScreenWetnessController : MonoBehaviour
     public float DropletsSize = 9.5f;
     [Range(0f, 2f)]
     public float GravityForce = 0.76f;
+    [Space]
 
     [Header("FullScreen Debug")]
+    [Space]
     public bool DebugVertexColor;
     public GameObject DebugVertexColorPass;
+    public bool DebugRoughness;
+    public GameObject DebugRoughnessPass;
     void Update()
     {
         if (DebugVertexColorPass)
         {
             DebugVertexColorPass.SetActive(DebugVertexColor);
         }
-        if(FullScreenWetness)
+        if (DebugRoughnessPass)
+        {
+            DebugRoughnessPass.SetActive(DebugRoughness);
+        }
+        if (FullScreenWetness)
         {
             FullScreenWetness.SetFloat("_WaterSmoothness", Wetness);
             FullScreenWetness.SetFloat("_DropletStrenght", RainDropStrenght);
