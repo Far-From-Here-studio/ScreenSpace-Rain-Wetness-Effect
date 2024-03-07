@@ -48,7 +48,7 @@ MonoBehaviour:
   fadeRadius: 0
   priority: 50
   customPasses:
-  - rid: 4000068524860244399
+  - rid: 4000068533034418239
   - rid: 4000068504398069820
   injectionPoint: 5
   m_TargetCamera: {fileID: 0}
@@ -68,10 +68,10 @@ MonoBehaviour:
         m_Version: 0
         wetnessMaterial: {fileID: 2100000, guid: 82814c390a6fc424da2eab09aca3daa4, type: 2}
         GlidingDroplets: {fileID: 8600000, guid: 02c1eb9b1ea4e8847a46ac799aafee34, type: 2}
-    - rid: 4000068524860244399
+    - rid: 4000068533034418239
       type: {class: DrawRenderersCustomPass, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
-        m_Name: Draw Vertex Color to custom buffer
+        m_Name: Draw Vertex Color to Custom ColorBuffer
         enabled: 1
         targetColorBuffer: 1
         targetDepthBuffer: 1

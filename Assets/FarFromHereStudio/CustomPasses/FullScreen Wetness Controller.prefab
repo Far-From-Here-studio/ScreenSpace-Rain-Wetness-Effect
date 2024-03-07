@@ -52,19 +52,21 @@ MonoBehaviour:
   FullScreenWetness: {fileID: 2100000, guid: 82814c390a6fc424da2eab09aca3daa4, type: 2}
   RainOnCamera: {fileID: 2100000, guid: 1f37c0f63d599114c8408e51b4406163, type: 2}
   Wetness: 1
-  RainDropStrenght: 20
-  DetailsDistance: 1.51
+  RainDropStrenght: 4.5
+  DetailsDistance: 1.76
   ScreenEffectWetness: 1
   RainDropCustomRenderTexture: {fileID: 2100000, guid: abcd39fb6e6ccb1468b3a547f1877752, type: 2}
-  RainAmount: 0.0138
-  DropSize: 0.053
+  RainAmount: 0.0289
+  DropSize: 0.091
   FadeValue: 0.9269
   RainGlideCustomRenderTexture: {fileID: 2100000, guid: 0a21689dc4b4b0848ac7a77509a4e72d, type: 2}
-  DropletsIntensity: 0.3
+  DropletsIntensity: 0.27
   DropletsSize: 6.6
   GravityForce: 1.413
   DebugVertexColor: 0
   DebugVertexColorPass: {fileID: 4157995834179011657}
+  DebugRoughness: 0
+  DebugRoughnessPass: {fileID: 4912571508415045159}
 --- !u!1001 &250756961259414260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -135,142 +137,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8523360141074904960}
     m_Modifications:
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: 'customPasses.Array.data[0]'
-      value: 4000068533034418239
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: 'managedReferences[4000068533034418239]'
-      value: Unity.RenderPipelines.HighDefinition.Runtime UnityEngine.Rendering.HighDefinition.DrawRenderersCustomPass
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068524860244399].m_Name
-      value: Draw Vertex Color to Custom ColorBuffer
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].m_Name
-      value: Draw Vertex Color to Custom ColorBuffer
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].m_Version
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].clearFlags
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].depthWrite
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].shaderPass
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].passFoldout
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].overrideMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].filterFoldout
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].overrideShader
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].overrideStencil
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].renderQueueType
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].rendererFoldout
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].sortingCriteria
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].stencilReadMask
-      value: 192
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].layerMask.m_Bits
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].overrideMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: b6587ea85d61e764fb3bc59b998bc75e, type: 2}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].stencilWriteMask
-      value: 192
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].targetColorBuffer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].targetDepthBuffer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].overrideDepthState
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].depthCompareFunction
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].stencilFailOperation
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].stencilPassOperation
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].stencilReferenceValue
-      value: 64
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].overrideShaderPassName
-      value: Forward
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].stencilCompareFunction
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].overrideShaderPassIndex
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].overrideMaterialPassName
-      value: ForwardOnly
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].overrideMaterialPassIndex
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 653883826256822644, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
-      propertyPath: managedReferences[4000068533034418239].stencilDepthFailOperation
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5072218712626900979, guid: 0cb3bb4030413874fb126465393563d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -387,6 +253,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1399600938907062513, guid: d3fd3d947b089e642ba5478a8ffd586e, type: 3}
   m_PrefabInstance: {fileID: 2712891201258922033}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4912571508415045159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7028665389892156950, guid: d3fd3d947b089e642ba5478a8ffd586e, type: 3}
+  m_PrefabInstance: {fileID: 2712891201258922033}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2820506430823818012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -461,10 +332,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Debug VertexColorFullScreen Pass
       objectReference: {fileID: 0}
-    - target: {fileID: 610293437121226533, guid: dcb542b4f90cd904384b3d59de05dfa6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4755805379537543967, guid: dcb542b4f90cd904384b3d59de05dfa6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -504,10 +371,6 @@ PrefabInstance:
     - target: {fileID: 4755805379537543967, guid: dcb542b4f90cd904384b3d59de05dfa6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6169587514070038398, guid: dcb542b4f90cd904384b3d59de05dfa6, type: 3}
-      propertyPath: injectionPoint
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

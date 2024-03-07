@@ -49,7 +49,7 @@ MonoBehaviour:
   priority: 0
   customPasses:
   - rid: 4000068548778524734
-  injectionPoint: 3
+  injectionPoint: 4
   m_TargetCamera: {fileID: 0}
   useTargetCamera: 0
   references:
