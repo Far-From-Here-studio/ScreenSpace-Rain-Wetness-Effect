@@ -27,6 +27,7 @@ Users can create vertex painted mask for the Rain and Wetness effect directly in
 - **Rain On Camera Pass**
 - **Render VFX to Custom Buffer Pass**
 - **Debug Vertex Color Pass**
+- **Debug Roughness Pass**
 
 Refer To the Documentation included in the repository for more information about how to use and included content
 
