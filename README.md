@@ -1,5 +1,8 @@
 # ScreenSpace-Rain-Wetness-Effect
 
+Rough implementation
+- A better Version (with terrain and trees support) in the Far From Here Studio Template: HDRP Environment repository! (https://github.com/Far-From-Here-studio/FarFromHere-Studio-Template-HDRP-Environment/tree/Unity6preview)
+
 **Unity Rain Effect for 2023.2+ using ShaderGraph, VFXGraph, CustomPass &amp; Custom Render Textures**
 Demo project is setup using **DX12** and **DXR**
 
