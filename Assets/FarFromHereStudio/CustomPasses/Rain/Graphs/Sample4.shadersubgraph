@@ -486,6 +486,7 @@
     "m_OutputNode": {
         "m_Id": "645614a2cd2b45d09c760ba1532900ee"
     },
+    "m_SubDatas": [],
     "m_ActiveTargets": []
 }
 
@@ -2530,7 +2531,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "isMainTexture": false,

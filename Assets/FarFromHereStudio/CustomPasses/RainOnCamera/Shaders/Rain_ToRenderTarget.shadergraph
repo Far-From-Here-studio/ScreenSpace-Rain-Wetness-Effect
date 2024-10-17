@@ -608,11 +608,12 @@
         "preventRotation": false
     },
     "m_Path": "HDRPSamples",
-    "m_GraphPrecision": 1,
+    "m_GraphPrecision": 2,
     "m_PreviewMode": 2,
     "m_OutputNode": {
         "m_Id": ""
     },
+    "m_SubDatas": [],
     "m_ActiveTargets": [
         {
             "m_Id": "2304a234841c431ca8a7db9fd934aec5"
