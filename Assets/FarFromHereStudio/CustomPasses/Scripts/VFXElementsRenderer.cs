@@ -31,7 +31,6 @@ class VFXElementsRenderer : CustomPass
                 ctx.cullingResults = ctx.renderContext.Cull(ref cullingParams);
             }
             CustomPassUtils.RenderFromCamera(ctx, VFXOrthoCamera, DefaultLayerMask);
-            VFXOrthoCamera.targetTexture = null;    
         }
     }
     protected override void Cleanup()
