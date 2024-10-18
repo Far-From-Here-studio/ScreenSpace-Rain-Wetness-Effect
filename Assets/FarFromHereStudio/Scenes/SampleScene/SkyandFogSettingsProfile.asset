@@ -183,6 +183,9 @@ MonoBehaviour:
   cullingDistance:
     m_OverrideState: 1
     m_Value: 1000
+  minSolidAngle:
+    m_OverrideState: 0
+    m_Value: 4
 --- !u!114 &-4719200943134120330
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -396,10 +399,10 @@ MonoBehaviour:
     m_Value: 0
   limitMin:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 1.6983049
   limitMax:
     m_OverrideState: 1
-    m_Value: 14
+    m_Value: 13.657627
   curveMap:
     m_OverrideState: 0
     m_Value:
