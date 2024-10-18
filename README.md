@@ -1,9 +1,7 @@
 # ScreenSpace-Rain-Wetness-Effect
 
-Rough implementation
-- A better Version (with terrain and trees support) in the Far From Here Studio Template: HDRP Environment repository! (https://github.com/Far-From-Here-studio/FarFromHere-Studio-Template-HDRP-Environment/tree/Unity6preview)
 
-**Unity Rain Effect for 2023.2+ using ShaderGraph, VFXGraph, CustomPass &amp; Custom Render Textures**
+**Unity Rain Effect for Unity 6 LTS using ShaderGraph, VFXGraph, CustomPass &amp; Custom Render Textures**
 Demo project is setup using **DX12** and **DXR**
 
 ![PromotionalScreenShot](https://static.wixstatic.com/media/40e3ee_c7794ec59296402bae56c951d422d258~mv2.png/v1/fill/w_712,h_402,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Capture%20d'%C3%A9cran%202024-03-07%20163209.png)
@@ -12,16 +10,16 @@ Demo project is setup using **DX12** and **DXR**
 
 # Description:
 
-Create Rainy effect in a **ScreenSpace** fashion by encoding the **HDRP normal and smoothness buffer**,
+Create a Rainy effect in a **ScreenSpace** fashion by encoding the **HDRP normal and smoothness buffer**,
 
-Using ***FullScreen Wetness Controller*** in the Sample Scene, users can handle the global Wetness effect, the RainDrops custom RenderTexture and the VFXgraph ColorBuffer main properties
+Using ***FullScreen Wetness Controller*** in the Sample Scene, users can handle the global Wetness effect, the RainDrops custom RenderTexture, and the VFXgraph ColorBuffer main properties
 
-Users can create vertex painted mask for the Rain and Wetness effect directly in the Demo Scene using ***Polybrush***, painting black or white vertex color.
+Users can create a vertex-painted mask for the Rain and Wetness effect directly in the Demo Scene using ***Polybrush***, painting the vertex color black or white.
 
 
-**This demo showcase some central Shader** :
+**This demo showcases some central Shader** :
 
-- **ModifyNormalRoughness** (fullscreen) **ShaderGraph** => handle the combination of all the custom buffers and create the final surface effect that apply to all object using the mask and *FullScreen Wetness Controller* properties
+- **ModifyNormalRoughness** (fullscreen) **ShaderGraph** => handle the combination of all the custom buffers and create the final surface effect that applies to all objects using the mask and *FullScreen Wetness Controller* properties
 - **Custom RenderTexture Droplets** (rain/glide) **Shaders** => check the materials exposed on the *FullScreen Wetness Controller* to access to this advanced shaders
 
 **CustomPass GameObjects (child of *FullScreen Wetness Controller*)**: 
@@ -32,8 +30,8 @@ Users can create vertex painted mask for the Rain and Wetness effect directly in
 - **Debug Vertex Color Pass**
 - **Debug Roughness Pass**
 
-Refer To the Documentation included in the repository for more information about how to use and included content
+Refer To the Documentation included in the repository for more information about how to use the content
 
-Look in Scene View and Game View can differ a little bit, since lastest unity updates Custom RenderTextures don't update syncronouly in scene view.
+Look in Scene View and Game View, which can differ slightly since the latest Unity updates don't update Custom RenderTextures synchronously in Scene View.
 
 Enjoy!
