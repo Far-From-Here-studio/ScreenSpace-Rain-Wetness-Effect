@@ -90,7 +90,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   customSeed:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
 --- !u!114 &-7692204113337076588
 MonoBehaviour:
@@ -225,7 +225,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 3
   adaptiveProbeVolumesLayerMask:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
       serializedVersion: 0
       m_Bits: 1
@@ -1186,13 +1186,13 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0
   m_AdaptiveSamplingWeight:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.75
   m_LimitManualRangeNearBlur:
     m_OverrideState: 1
     m_Value: 0
   coCStabilization:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
 --- !u!114 &-303064665230181016
 MonoBehaviour:
@@ -1562,6 +1562,9 @@ MonoBehaviour:
   cullingDistance:
     m_OverrideState: 1
     m_Value: 1000
+  minSolidAngle:
+    m_OverrideState: 1
+    m_Value: 4
 --- !u!114 &1799998343438589549
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1633,7 +1636,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0.75
   multipleScatteringIntensity:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   m_FogControlMode:
     m_OverrideState: 1
@@ -1676,16 +1679,16 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   planetRadius:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 6378.1
   renderingSpace:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   centerMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   planetCenter:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {x: 0, y: -6378.1, z: 0}
   windOrientation:
     m_OverrideState: 1
@@ -1814,6 +1817,11 @@ MonoBehaviour:
   m_RayMaxIterationsRT:
     m_OverrideState: 1
     m_Value: 48
+  adaptiveProbeVolumesLayerMask:
+    m_OverrideState: 1
+    m_Value:
+      serializedVersion: 0
+      m_Bits: 1
 --- !u!114 &3676648589827803854
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1934,7 +1942,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   atmosphericScattering:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   renderingMode:
     m_OverrideState: 1
@@ -1970,13 +1978,13 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0
   ozoneDensityDimmer:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   ozoneMinimumAltitude:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 20000
   ozoneLayerWidth:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 20000
   groundTint:
     m_OverrideState: 1
@@ -2077,6 +2085,9 @@ MonoBehaviour:
   tileOpacityThreshold:
     m_OverrideState: 1
     m_Value: 0.95
+  writeDepthAlphaThreshold:
+    m_OverrideState: 1
+    m_Value: 0
 --- !u!114 &5315503232242033309
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2677,11 +2688,11 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   intensityMultiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   skyOcclusionIntensityMultiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   worldOffset:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {x: 0, y: 0, z: 0}

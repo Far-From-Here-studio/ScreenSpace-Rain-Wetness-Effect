@@ -164,10 +164,10 @@ MonoBehaviour:
     m_Value: 0.005
   extendShadowCulling:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   extendCameraCulling:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   directionalShadowRayLength:
     m_OverrideState: 1
     m_Value: 100
@@ -179,7 +179,7 @@ MonoBehaviour:
     m_Value: 0
   cullingMode:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 3
   cullingDistance:
     m_OverrideState: 1
     m_Value: 1000
@@ -400,10 +400,10 @@ MonoBehaviour:
     m_Value: 0
   limitMin:
     m_OverrideState: 1
-    m_Value: 1.6983049
+    m_Value: 3.08292
   limitMax:
     m_OverrideState: 1
-    m_Value: 13.657627
+    m_Value: 13.5339365
   curveMap:
     m_OverrideState: 0
     m_Value:
@@ -548,10 +548,10 @@ MonoBehaviour:
     m_Value: 4
   m_MinSmoothness:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.276
   m_SmoothnessFadeStart:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.5
   reflectSky:
     m_OverrideState: 1
     m_Value: 1
@@ -604,7 +604,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value:
       serializedVersion: 2
-      m_Bits: 55
+      m_Bits: 19
   textureLodBias:
     m_OverrideState: 1
     m_Value: 1
@@ -619,10 +619,10 @@ MonoBehaviour:
     m_Value: 1
   m_DenoiserRadius:
     m_OverrideState: 1
-    m_Value: 0.75
+    m_Value: 0.038
   m_DenoiserAntiFlickeringStrength:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.103
   mode:
     m_OverrideState: 1
     m_Value: 2
@@ -638,6 +638,11 @@ MonoBehaviour:
   m_RayMaxIterationsRT:
     m_OverrideState: 1
     m_Value: 48
+  adaptiveProbeVolumesLayerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 0
+      m_Bits: 1
 --- !u!114 &8600994115917748832
 MonoBehaviour:
   m_ObjectHideFlags: 3
