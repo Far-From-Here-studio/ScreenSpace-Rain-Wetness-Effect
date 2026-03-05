@@ -453,7 +453,7 @@
     "m_Guid": {
         "m_GuidSerialized": "2b0cd4dc-a50a-44e6-9894-8305e2021954"
     },
-    "promotedFromAssetID": "",
+    "promotedFromAssetID": "d056e8f657fb75f4bbc005be7e4d6ebe",
     "promotedFromCategoryName": "",
     "promotedOrdering": -1,
     "m_Name": "USE_RENDERLAYER_MASK",
@@ -544,10 +544,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 184.00001525878907,
-            "y": -95.99999237060547,
-            "width": 201.3332977294922,
-            "height": 120.0
+            "x": 165.0000762939453,
+            "y": -33.99999237060547,
+            "width": 199.99998474121095,
+            "height": 117.99998474121094
         }
     },
     "m_Slots": [

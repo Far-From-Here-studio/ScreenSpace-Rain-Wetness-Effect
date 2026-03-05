@@ -88,7 +88,7 @@ MonoBehaviour:
     probeVolumeBlendingMemoryBudget: 128
     supportRayTracing: 1
     supportVFXRayTracing: 1
-    supportedRayTracingMode: 1
+    supportedRayTracingMode: 3
     lightLoopSettings:
       cookieAtlasSize: 2048
       cookieFormat: 74
@@ -170,7 +170,8 @@ MonoBehaviour:
       enabled: 1
       useMipBias: 1
       advancedUpscalersByPriority: 
-      advancedUpscalerNames: []
+      advancedUpscalerNames:
+      - STP
       DLSSPerfQualitySetting: 0
       DLSSInjectionPoint: 0
       TAAUInjectionPoint: 0
@@ -322,7 +323,7 @@ MonoBehaviour:
       - 0.666
       - 0.5
     gpuResidentDrawerSettings:
-      mode: 0
+      mode: 1
       smallMeshScreenPercentage: 0
       enableOcclusionCullingInCameras: 0
       useDepthPrepassForOccluders: 1
